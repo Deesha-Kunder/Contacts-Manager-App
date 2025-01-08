@@ -9,7 +9,7 @@
                     type="com.deesha.contactsmanagerapp.roomdb.Contacts" />
         </data>
         <androidx.constraintlayout.widget.ConstraintLayout
-
+            android:background="#F2D3D9"
             android:id="@+id/main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -19,7 +19,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Update Contact"
+                    android:text="Edit contact"
+                    android:textColor="#5D4447"
                     android:layout_margin="25dp"
                     android:textStyle="bold"
                     android:textSize="20dp"
@@ -44,6 +45,7 @@
                     android:layout_height="40dp"
                     android:layout_margin="10dp"
                     android:layout_marginTop="48dp"
+                    android:textColor="#5D4447"
                     android:background="@drawable/background"
                     android:paddingStart="10dp"
                     android:maxLength="15"
@@ -60,6 +62,7 @@
                     android:layout_height="40dp"
                     android:paddingStart="10dp"
                     android:background="@drawable/background"
+                    android:textColor="#5D4447"
                     android:layout_marginTop="15dp"
                     android:text="@={contacts.email}"
                     android:layout_marginStart="10dp"
@@ -76,6 +79,7 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="15dp"
                     android:background="@drawable/background"
+                    android:textColor="#5D4447"
                     android:paddingStart="10dp"
                     android:inputType="number"
                     android:maxLength="10"
@@ -92,12 +96,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="65dp"
-                    android:text="Update"
+                    android:text="Edit"
+                    android:textColor="#5D4447"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/updateEmail"
-
-                    android:background="@drawable/background"/>
+                    app:layout_constraintTop_toBottomOf="@+id/updateEmail" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
