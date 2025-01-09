@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void ShowDialogBox(Contacts contacts) {
         new AlertDialog.Builder(this)
-                .setTitle("Chose an action")
+                .setTitle("Choose an action")
                 .setMessage("Do you want to Delete or Edit this Contact?")
                 .setPositiveButton("edit",(dialog,which)->{
 
